@@ -1,7 +1,8 @@
 var mongoose = require('mongoose');
+const keys = require('../config/keys')
 
 mongoose.Promise = global.Promise;
-mongoose.connect( process.env.MONGODB_URI || 'mongodb://localhost:27017/Notes', {
+mongoose.connect( keys.MONGO_URI,  {
   useMongoClient: true})
 
 module.exports = mongoose
