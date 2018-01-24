@@ -1,6 +1,6 @@
 
-const retrospectClassAPI =`https://namenotesapi.herokuapp.com/class`
-const saveClassAPI =`https://namenotesapi.herokuapp.com/class/new`
+const retrospectClassAPI =`https://retro-spect.herokuapp.com/class`
+const saveClassAPI =`https://retro-spect.herokuapp.com/class/new`
 
 export function all() {
     return fetch(retrospectClassAPI)

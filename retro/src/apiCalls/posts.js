@@ -1,6 +1,6 @@
 
-const retrospectPostsAPI =`https://namenotesapi.herokuapp.com/posts`
-const savePostAPI =`https://namenotesapi.herokuapp.com/post/new`
+const retrospectPostsAPI =`https://retro-spect.herokuapp.com/posts`
+const savePostAPI =`https://retro-spect.herokuapp.com/post/new`
 
 
 export function all() {
